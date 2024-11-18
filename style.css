@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #061637;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 20px;
+}
+.logo-name{
+    padding-top: 20px;
+    padding-left: 100px;
+    color: aliceblue;
+}
+.content{
+    padding-top: 20px;
+    padding-left: 160px;
+}
+.h-content{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    color: aliceblue;
+    transition: all 1S;
+}
+.h-content:hover{
+    color: #cc7722;
+    font-size: 25px;
+}
+.home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.home-content{
+    color: aliceblue;
+    padding-top: 200px;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+.small{
+    font-size: 23px;
+    font-weight: normal;
+}
+.larger{
+    font-weight: bold;
+    font-size: 66px;
+}
+.home-link{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #cc7722;
+    padding: 15px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.home-link:hover{
+    background-color: #D4AF37;
+    color: #1D3461;
+    padding: 20px;
+    border-radius: 40px;
+}
+.home-img{
+    padding-top: 162px;
+}
+#home-img{
+    height: 498px;
+    padding-left: 232px;
+}
+
+.abt-body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 80px;
+    column-gap: 55px;
+    box-sizing: border-box;
+}
+.abt-img{
+    border: solid #0a1120;
+    border-style: outset;
+    border-radius: 5px;
+    box-shadow: 15px 15px #0a1120;
+}
+#abt-img{
+    height: 580px;
+    padding-left: 85px
+}
+.abt-content{
+    color: aliceblue;
+    padding-top: 150px;
+    padding-right: 40px;
+}
+.abt-me{
+    font-size: 40px;
+    color: #cc7722;
+}
+.abt-me2{
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 45px;
+    column-gap: 13px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.skill1{
+    height: 340px;
+    color: aliceblue;
+    border: solid #0a1120;
+    border-radius: 5px;
+    box-shadow: 10px 10px #111e38;
+    padding-top: 200px;
+    padding: 100px 20px 20px 30px;
+    padding-left: 30px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    transition: all 1s;
+    display: grid;
+}
+.skill1:hover{
+    border-radius: 50px;
+    height: 380px;
+}
+
+.skillss{
+    color: aliceblue;
+    margin: 65px;
+    padding-top: 100px;
+}
+.contact{
+    font-size: 30px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 600px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* to remove scrollbar */ 
+::-webkit-scrollbar{
+    visibility: hidden;
+}
